@@ -1,0 +1,13 @@
+<Alloy>
+	<View id="task">
+		<Label id="taskLabel"></Label>
+		<View id="readMore">
+			<Label id="readMoreLabel"></Label>
+			<Label id="readMoreIcon"></Label>
+		</View>
+		<View id="progress">
+			<View id="progressbar"></View>
+			<View id="progressCircle"></View>
+		</View>
+	</View>
+</Alloy>

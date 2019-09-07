@@ -1,0 +1,65 @@
+
+".container": {
+	theme:"Theme.AppCompat.Fullscreen"
+}
+
+"#scrollableView":{
+	width:Titanium.UI.SIZE,
+	height:"90%",
+	top:0
+}
+
+"#bottomNavigation":{
+	width:Titanium.UI.FILL,
+	height:"10%",
+	bottom:0,
+	backgroundColor:"#f8fcff",
+	layout:"horizontal"
+}
+
+".navView":{
+	width: "20%",
+	height:Titanium.UI.FILL,
+	layout:"vertical",
+	top:0
+}
+
+".navIcon":{
+	top:0
+}
+
+".navLabel":{
+	color:"#1a1360",
+	font:{
+		fontSize:11
+	},
+	width:Titanium.UI.FILL,
+	textAlign:"center"
+}
+
+"#aboutIcon":{
+	image:"/images/list.png",
+	top:5
+}
+
+"#participantIcon":{
+	image:"/images/user-1.png"
+}
+
+
+"#walletIcon":{
+	image:"/images/bag001 - E0DE.png",
+}
+
+
+"#calendarIcon":{
+	image:"/images/calendar-2.png",
+}
+
+"#taskIcon":{
+	image:"/images/check-1.png",
+}
+
+
+
+

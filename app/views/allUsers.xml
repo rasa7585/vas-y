@@ -1,0 +1,64 @@
+<Alloy>
+    <Window id="detailsWin">
+        <View id="userContainer">
+            <View id="leftCircle"></View>
+            <View id="rightCircel"></View>
+            <View id="userInfo">
+                <Label id="title">Participants</Label>
+            </View>
+            <View id="tabsContainer">
+                <View id="lbls">
+                    <Label id="registeredUsers" onClick="showRegisteredTab">Registered Users</Label>
+                    <Label id="facebookUsers" onClick="showFriendsTab">Facebook Users</Label>
+                </View>
+                <View id="lines">
+                    <View id="lineR"></View>
+                    <View id="lineF"></View>
+                </View>
+            </View>
+        </View>
+        <View id="indicatorsContainer">
+            <View id="indicatorR"></View>
+            <View id="indicatorF"></View>
+        </View>
+        <View id="contentContainer">
+            <View id="searchContainer">
+                <View id="iconContainer">
+                    <Label id="searchIcon"></Label>
+                </View>
+                <TextField onChange="applyFilter" id="searchField"></TextField>
+            </View>
+            <View id="shadow"></View>
+            <View id="listViewContainer">
+                <ListView  id="myListView" defaultItemTemplate="template">
+                    <SearchView visible="false" ns="Ti.UI.Android" id="mySearchView" platform="android"></SearchView>
+                        <SearchBar id="mySearchView" platform="ios"></SearchBar>
+                        <Templates>
+                        <ItemTemplate name="template">
+                            <View id='container'>
+                                <View id="leftContainer">
+                                    <View id="photoContainer">
+                                        <Label id="defaultPic" text="person"></Label>
+                                        <ImageView bindId="profileIMG" id="profilePhoto"></ImageView>
+                                    </View>
+                                    <Label id="name" bindId="userName"></Label>
+                                </View>
+                                <View id="rightContainer">
+                                    <Label id='status' bindId="status">coming</Label>
+                                </View>
+                            </View>
+                        </ItemTemplate>
+                    </Templates>
+                    <ListSection id="section"></ListSection>
+                </ListView>
+            </View>
+            <!-- <View id="btnsContainer"></View> -->
+        </View>
+        <View id="inviteContainer">
+            <Label id="link">http://vyascom/userName/EventName</Label>
+            <View id="inviteBtn">
+                <Label color="black" id="invite">Invite</Label>
+            </View>
+        </View>
+    </Window>
+</Alloy>

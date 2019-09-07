@@ -1,0 +1,7 @@
+<Alloy>
+	<Window class="container">
+		<View id="photoContainer">
+			<ImageView id="userPhoto" />
+		</View>
+	</Window>
+</Alloy>

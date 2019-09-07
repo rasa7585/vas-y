@@ -1,0 +1,55 @@
+<Alloy>
+	<Window class="happeningWin" id="happeningWin">
+		<View id="topView">
+			<View id="userInfo">
+				<Label id="title">Create New Happening</Label>
+			</View>
+			<View id="leftCircle"></View>
+			<View id="rightCircel"></View>
+			<View id="photoContainer">
+				<View id="profilePhoto">
+					<ImageView id="profileImg" />
+				</View>
+			</View>
+		</View>
+		<ScrollView id="scrollView">
+			<View id="happeningInfo">
+				<View class="textFieldContainer">
+					<Label class="textFieldLabel">Name:</Label>
+					<TextField id="happeningTextField" class="textField" />
+				</View>
+				<View class="textFieldContainer">
+					<Label class="textFieldLabel">Location:</Label>
+					<TextField id="locationTextField" class="textField"/>
+				</View>
+				<View class="textFieldContainer">
+					<Label class="textFieldLabel">Budget:</Label>
+					<!-- <Widget src="input-materialdesign" id="budgetTextField" /> -->
+					<TextField id="budgetTextField" class="textField"/>
+				</View>
+				<View class="textFieldContainer">
+					<View id="publicContainer" onClick="publicClicked">
+						<Label id="publicLabel">Public</Label>
+						<ImageView id="publicRadio" />
+					</View>
+					<View id="privateContainer" onClick="privateClicked">
+						<Label id="privateLabel">Private</Label>
+						<ImageView id="privateRadio" />
+					</View>
+				</View>
+				<View class="textFieldContainer">
+					<Label id="detailsTitle" class="textFieldLabel">Description:</Label>
+					<TextArea id="detailsTextField"></TextArea>
+				</View>
+				<View id="photoView" onClick="openGallery">
+					<Label id="cameraIcon"></Label>
+				</View>
+				<Button id="saveBtn" onClick="createHappening">Save</Button>
+				
+
+			</View>
+					<View height="10dp" width="100%" bottom="3dp"></View>
+		</ScrollView>
+
+	</Window>
+</Alloy>

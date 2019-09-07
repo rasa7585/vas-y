@@ -1,0 +1,42 @@
+<Alloy>
+	<Window onFocus="setInfo" id="homeWin">
+		<View id="userContainer">
+			<View id="userInfo">
+				<Label id="title">Happenings</Label>
+				<Label id="todayDesc"></Label>
+			</View>
+			<View id="leftCircle"></View>
+			<View id="rightCircel"></View>
+			<View id="photoContainer">
+				<View id="profilePhoto" onClick="showMenu">
+					<ImageView id="profileImg" />
+				</View>
+			</View>
+		</View>
+		<TableView id="picker">
+			<TableViewRow title="photo" onClick="openGallery" class="row">
+				<Label class="icon">\uf030</Label>
+				<Label class="menuLabel">Photo</Label>
+			</TableViewRow>
+			<TableViewRow title="Profile" class="row" onClick="openProfile">
+				<Label class="icon">\uf007</Label>
+				<Label class="menuLabel">Profile</Label>
+			</TableViewRow>
+			<TableViewRow title="Settings" class="row" onClick="openSettings">
+				<Label class="icon">\uf013</Label>
+				<Label class="menuLabel">Settings</Label>
+			</TableViewRow>
+		</TableView>
+		<ScrollView id="scrollView">
+			<View id="happeningContainer"></View>
+		</ScrollView>
+		<View id="addHappening" onClick="addHappening">
+			<View id="addBtn">
+				<View id="labelContainer">
+					<Label id="addIcon"></Label>
+					<Label id="btnLabel"></Label>
+				</View>
+			</View>
+		</View>
+	</Window>
+</Alloy>

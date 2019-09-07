@@ -1,0 +1,146 @@
+"#mainContainer": {
+width:Titanium.UI.FILL,
+height:Titanium.UI.FILL,
+backgroundColor: "#f8fcff",
+layout: "vertical"
+}
+
+"#topContainer": {
+width: Ti.UI.FILL,
+height: Ti.UI.SIZE,
+backgroundColor: '#1a1360',
+layout: 'vertical'
+}
+
+"#imageContainer": {
+height: '130dp',
+width: Ti.UI.SIZE,
+// backgroundColor: 'red',
+top: '10dp'
+}
+
+"#topImage": {
+height: Ti.UI.FILL,
+width: Ti.UI.SIZE,
+image: '/images/topimg.png',
+top: '0dp',
+// backgroundColor: 'yellow'
+}
+
+"#Wallets": {
+height: '25dp',
+width: '85dp',
+backgroundColor: '#ffffff',
+top: '20dp',
+borderRadius: 3
+}
+
+"#walletsLbl": {
+color: '#1a1360',
+font: {
+fontSize: '12dp'
+},
+// backgroundColor: 'purple',
+// top: '0dp'
+}
+
+"#amountLBL": {
+color: "#ffffff",
+font: {
+fontSize: '35dp',
+fontFamily: 'COUR.TTF'
+},
+height: Ti.UI.SIZE,
+top: '5dp',
+// backgroundColor: 'red'
+}
+
+"#totalBallanceLBL": {
+font: {
+fontSize: '12dp'
+},
+color: '#ffffff',
+top: '0dp',
+// backgroundColor: 'pink'
+}
+
+"#buttonsContainer": {
+height: '70dp',
+width: '75%',
+top: '0dp',
+// backgroundColor: 'purple'
+}
+
+"#leftBtn": {
+	height: '35dp',
+	width: '47%',
+	backgroundColor: 'white',
+	borderRadius: 3,
+	left: '0dp',
+	top: '15dp',
+}
+
+"#rightBtn": {
+	height: '35dp',
+	width: '47%',
+	backgroundColor: '#837fa9',
+	borderRadius: 3,
+	right: '0dp',
+	top: '15dp'
+}
+
+".iconContainer": {
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
+	layout: 'horizontal'
+}
+
+"#downIcon": {
+	height: '20dp',
+	width: '20dp',
+	backgroundColor: 'transparent',
+	borderColor: '#1a1360',
+	borderRadius: 10
+}
+
+"#down": {
+	color: '#1a1360',
+	font: {
+		fontSize: '13dp',
+		fontFamilly: 'material_icons.ttf'
+	},
+	// text: 'keyboard_arrow_down'
+}
+
+"#saveUp": {
+	color: '#1a1360',
+	font: {
+		fontSize: '15dp'
+	},
+	left: '10dp'
+}
+
+"#upIcon": {
+	height: '20dp',
+	width: '20dp',
+	backgroundColor: 'transparent',
+	borderColor: '#ffffff',
+	borderRadius: 10
+}
+
+"#up": {
+	color: '#ffffff',
+	font: {
+		fontSize: '13dp',
+		fontFamilly: 'material_icons.ttf'
+	},
+	// text: 'keyboard_arrow_up'
+}
+
+"#spend": {
+	color: '#ffffff',
+	font: {
+		fontSize: '15dp'
+	},
+	left: '10dp'
+}

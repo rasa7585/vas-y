@@ -1,0 +1,28 @@
+<Alloy>
+	<Window class="container" id="calendar">
+		<View id="userContainer">
+			<View id="userInfo">
+				<Label id="title"></Label>
+				<Label id="todayTask"></Label>
+			</View>
+			<View id="leftCircle"></View>
+			<View id="rightCircel"></View>
+			<View id="photoContainer">
+				<View id="profilePhoto">
+					<ImageView id="profileImg" />
+				</View>
+			</View>
+		</View>
+		<ScrollView id="scrollView">
+			<View id="currentDate"></View>
+			<View id="toolBar">
+				<View id="toolBarTitle">
+					<Button id="prevMonth"></Button>
+					<Label id="monthTitle"></Label>>
+					<Button id="nextMonth"></Button>
+				</View>
+				<View id="toolBarDays"></View>
+			</View>
+		</ScrollView>
+	</Window>
+</Alloy>

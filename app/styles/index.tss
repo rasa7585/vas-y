@@ -1,0 +1,205 @@
+"#loginWin":{
+	backgroundColor: "#1a1360",
+	theme: "Theme.AppCompat.Fullscreen",
+	orientationModes:[Titanium.UI.PORTRAIT]
+}
+
+"#scrollView":{
+	width:Titanium.UI.FILL,
+	height:"100%",
+	top:0,
+}
+
+"#topImg":{
+	image:"/images/photos/topPic.jpg",
+	height:"31%",
+	width: Titanium.UI.FILL,
+	top:0
+}
+
+"#content":{
+	width: Titanium.UI.FILL,
+	height: Titanium.UI.SIZE,
+	layout: "vertical",
+	top:"34%",
+}
+
+"#usernameView":{
+	width:"80%",
+	height:50,
+	backgroundColor:"#150f55",
+	left:"10%"
+}
+
+"#username":{
+	width:"90%",
+	height:50,
+	hintText: "Email",
+	color:"#fff",	
+	font:{
+		fontFamily:"Montserrat-Regular.ttf",
+		fontSize:13
+	},
+	backgroundColor:"#150f55",
+	borderRadius:7,
+	left:"10%"
+}
+
+"#userIcon":{
+	left:10,
+	text:"\uf0e0",
+	font:{
+		fontFamily:"fontIcon.ttf",
+		fontSize:15,
+	},
+	color:"#fff",
+	width:Titanium.UI.FILL,
+	textAlign:"left"
+}
+
+"#passwordView":{
+	width:"80%",
+	height:50,
+	backgroundColor:"#150f55",
+	left:"10%",
+	top: 15
+}
+
+"#passwordIcon":{
+	left:10,
+	image:"/images/Union 4.png",
+}
+
+"#password":{
+	width:"80%",
+	height:50,
+	hintText: "Password",
+	color:"#fff",	
+	font:{
+		fontFamily:"Montserrat-Regular.ttf",
+		fontSize: 13
+	},
+	backgroundColor:"#150f55",
+	borderRadius:7,
+	passwordMask: true
+}
+
+"#forgetPass":{
+	width: "80%",
+	textAlign:"right",
+	color:"#fff",
+	font:{
+		fontFamily:"Montserrat-Regular.ttf",
+		fontSize: 13
+	},
+	top:15
+}
+
+"#loginBtn":{
+	width:"80%",
+	height:50,
+	backgroundColor:"#fff",
+	color:"#80150f55",
+	font:{
+		fontFamily:"Montserrat-Regular.ttf",
+		fontSize:13
+	}, 
+	top:25,
+	borderRadius:7
+}
+
+"#question":{
+	width:Titanium.UI.SIZE,
+	height:Titanium.UI.SIZE,
+	layout: "horizontal",
+	top:20
+}
+
+"#questionLabel":{
+	color:"#80ffffff",
+	font:{
+		fontFamily:"Montserrat-Regular.ttf",
+		fontSize:13
+	},
+	
+}
+
+"#signup":{
+	color:"#ffffff",
+	font:{
+		fontFamily:"Montserrat-Regular.ttf",
+		fontWeight: "bold",
+		fontSize:13
+	},
+	left:10
+}
+
+"#lingContainer":{
+	width:"80%",
+	height:Titanium.UI.SIZE,
+	top:30
+}
+
+"#leftLine":{
+	width:"40%",
+	height:1,
+	backgroundColor:"#fff",
+	left:0
+}
+
+"#rightLine":{
+	width:"40%",
+	height:1,
+	backgroundColor:"#fff",
+	right:0
+}
+
+"#or":{
+	font:{
+		fontFamily:"Montserrat-Regular.ttf",
+		fontSize:12
+	},
+	color:"#fff"
+}
+
+"#faceContainer":{
+	width:50,
+	height:50,
+	borderColor:"#fff",
+	borderWidth:2,
+	borderRadius:100,
+	top:25
+}
+
+"#faceIcon":{
+	text:"f",
+	font:{
+		fontFamily:"Montserrat-Bold.ttf",
+		fontSize: 20
+	},
+	color:"#fff",
+	width:Titanium.UI.FILL,
+	textAlign:"center"
+}
+
+"#leftView":{
+	width: 80,
+	height: 80,
+	left: 0,
+	bottom: 0,
+	backgroundColor: "#fff",
+	opacity:0.5
+}
+
+"#rightView":{
+	width:30,
+	height: 30,
+	right: "10%",
+	bottom: 45,
+	backgroundColor:"#fff",
+	opacity: 0.2
+}
+
+
+
+

@@ -1,0 +1,177 @@
+"#userWind":{
+	backgroundColor: "#1a1360",
+	theme: "Theme.AppCompat.Fullscreen",
+	orientationModes:[Titanium.UI.PORTRAIT]
+}
+
+"#scrollView":{
+	width:Titanium.UI.FILL,
+	height:"100%",
+	top:0,
+}
+
+"#topImg":{
+	image:"/images/photos/topPic.jpg",
+	height:"31%",
+	width: Titanium.UI.FILL,
+	top:0
+}
+
+"#content":{
+	width: Titanium.UI.FILL,
+	height: Titanium.UI.SIZE,
+	layout: "vertical",
+	top:"34%",
+}
+
+"#usernameView":{
+	width:"80%",
+	height:50,
+	backgroundColor:"#150f55",
+	left:"10%",
+	top:15
+}
+
+"#username":{
+	width:"90%",
+	height:50,
+	hintText: "Email",
+	color:"#fff",	
+	font:{
+		fontFamily:"Montserrat-Regular.ttf",
+		fontSize:13
+	},
+	backgroundColor:"#150f55",
+	borderRadius:7,
+	left:"10%"
+}
+
+"#userIcon":{
+	left:10,
+	// image:"/images/Group-7.png",
+	text:"\uf0e0",
+	font:{
+		fontFamily:"fontIcon.ttf",
+		fontSize:15,
+	},
+	color:"#fff",
+	width:Titanium.UI.FILL,
+	textAlign:"left"
+}
+
+"#nameView":{
+	width:"80%",
+	height:50,
+	backgroundColor:"#150f55",
+	left:"10%"
+}
+
+"#name":{
+	width:"90%",
+	height:50,
+	hintText: "Name",
+	color:"#fff",	
+	font:{
+		fontFamily:"Montserrat-Regular.ttf",
+		fontSize:13
+	},
+	backgroundColor:"#150f55",
+	borderRadius:7,
+	left:"10%"
+}
+
+"#nameIcon":{
+	left:10,
+	image:"/images/Group-7.png",
+}
+
+"#passwordView":{
+	width:"80%",
+	height:50,
+	backgroundColor:"#150f55",
+	left:"10%",
+	top: 15
+}
+
+"#passwordIcon":{
+	left:10,
+	image:"/images/Union 4.png",
+}
+
+"#password":{
+	width:"80%",
+	height:50,
+	hintText: "Password",
+	color:"#fff",	
+	font:{
+		fontFamily:"Montserrat-Regular.ttf",
+		fontSize: 13
+	},
+	backgroundColor:"#150f55",
+	borderRadius:7,
+	passwordMask: true
+}
+
+"#photoView":{
+	width:90,
+	height:90,
+	backgroundColor:"#150f55",
+	// left: 0,
+	top:15,
+	borderRadius: 7,
+	left:"10%"
+}
+
+"#photoIcon":{
+	text:"\uf030",
+	font:{
+		fontSize:26,
+		fontFamily:"fontIcon.ttf"
+	},
+	color:"#fff",
+	width:Titanium.UI.FILL,
+	textAlign:"center"
+}
+
+"#loginBtn":{
+	width:"80%",
+	height:50,
+	backgroundColor:"#fff",
+	color:"#80150f55",
+	font:{
+		fontFamily:"Montserrat-Regular.ttf",
+		fontSize:13
+	}, 
+	top:25,
+	borderRadius:7
+}
+
+"#question":{
+	width:Titanium.UI.SIZE,
+	height:Titanium.UI.SIZE,
+	layout: "horizontal",
+	top:20
+}
+
+"#questionLabel":{
+	color:"#80ffffff",
+	font:{
+		fontFamily:"Montserrat-Regular.ttf",
+		fontSize:13
+	},
+	
+}
+
+"#signin":{
+	color:"#ffffff",
+	font:{
+		fontFamily:"Montserrat-Regular.ttf",
+		fontWeight: "bold",
+		fontSize:13
+	},
+	left:10
+}
+
+
+
+

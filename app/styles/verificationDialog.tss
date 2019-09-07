@@ -1,0 +1,49 @@
+
+".container": {
+	height: 200,
+	width: "70%",
+	backgroundColor: "#fff",
+	layout: "vertical",
+	padding:15
+}
+
+"#title":{
+	text: "Please enter the verification code we sent you via email: mvp@gmail.com",
+	font:{
+		fontFamily: "Montserrat-Regular.ttf",
+		fontSize: 14
+	},
+	color: "#1a1360",
+	width:Titanium.UI.FILL,
+	height:Titanium.UI.SIZE,
+	textAlign: "left"
+}
+
+"#code":{
+	top:20,
+	width: "100%",
+	color: '#1a1360',
+	font: {
+		fontFamily: "Montserrat-Regular.ttf",
+		fontSize: 12
+	},
+	borderColor: 'transparent',
+	hintText:"Please enter verification code here",
+	hintTextColor:"#aaa"
+}
+
+"#submit":{
+	top:20,
+	title:"Submit",
+	width:130,
+	height:35,
+	backgroundColor:"#1a1360",
+	color:"#fff",
+	right:0,
+	font: {
+		fontFamily: "Montserrat-Bold.ttf",
+		fontSize: 12
+	},
+}
+
+

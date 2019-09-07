@@ -1,0 +1,71 @@
+
+".container": {
+	backgroundColor: "#fff",
+	layout: "vertical"
+}
+
+"#outer":{
+	// layout:"horizontal",
+	width: "100%",
+	height: 60,
+	top: '10dp'
+}
+
+"#imageContainer":{
+	width: '60dp',
+	height: '60dp',
+	borderRadius: 30,
+	left: 0,
+	borderColor: '#4b4d4f'
+}
+
+"#defaultIMG": {
+	font: {
+		fontFamily: 'material_icons.ttf',
+		fontSize: '55dp'
+	},
+	color: '#dbdbdb'
+}
+
+"#friendImg": {
+	height: Ti.UI.FILL,
+	width: Ti.UI.FILL
+}
+
+"#friendName":{
+	text: "Reza Mohammadi",
+	font:{
+		fontSize: 14,
+		fontWeight: "bold"
+	},
+	color: "#6e6e6e",
+	left: 75
+}
+
+"#status":{
+	width: 75,
+	height: 30,
+	backgroundColor: "#419fd9",
+	right: 0
+}
+
+"#statusLabel":{
+	text: "Unfriend",
+	color: "#fff",
+	width:Titanium.UI.FILL,
+	textAlign: "center",
+	font:{
+		fontSize: 12
+	}
+}
+
+"#listView":{
+	width: "86%",
+	height:Titanium.UI.SIZE,
+	top: 30,
+	separatorColor: "#e8f2fe"
+}
+
+"#section":{}
+
+

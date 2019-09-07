@@ -1,0 +1,24 @@
+<Alloy>
+	<Window class="container" id="requestWin" onOpen="loadRequests">
+		<ListView defaultItemTemplate="template" id="listView">
+			<Templates>
+				<ItemTemplate name="template">
+					<View id='outer'>
+						<View id="imageContainer">
+							<Label id="defaultIMG" text="person" />
+							<ImageView id="friendImg" bindId="friendImg"/>
+						</View>
+						<Label id="friendName" bindId="friendName"></Label>
+						<View id="accept" onClick="acceptingRequest">
+							<Label id="acceptLabel"></Label>
+						</View>
+						<View id="deleteBtn" onClick="deletingRequest">
+							<Label id="deleteLabel"></Label>
+						</View>
+					</View>
+				</ItemTemplate>
+			</Templates>
+			<ListSection id="section"></ListSection>
+		</ListView>
+	</Window>
+</Alloy>

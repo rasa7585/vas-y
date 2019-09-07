@@ -1,0 +1,40 @@
+<Alloy>
+	<Window onOpen="setInfo" id="profileWin">
+		<ScrollView id="holeContainer">
+			<View id="photoContainer">
+				<View id="profilePhoto" onClick="openGallery">
+					<Label id="defauleProfImg" text="person"></Label>
+					<ImageView id="profileImg" />
+				</View>
+				<View id="iconContainer" onClick="openGallery">
+					<Label id="cameraIcon"></Label>
+				</View>
+			</View>
+			<View id="nameContainer">
+				<Label id="name"></Label>
+			</View>
+			<View id="emailContainer">
+				<View id="innerEmailContainer">
+					<Label id="email" onClick="logout">Logout</Label>
+				</View>
+			</View>
+			<View id="line"></View>
+			<View id="interestsContainer">
+				<Label id="title">Choose Your Interests:</Label>
+				<View id="listViewContainer">
+					<ListView id='interestsList' defaultItemTemplate="template" onItemclick="itemClicked">
+						<Templates>
+							<ItemTemplate name="template">
+								<View id="container">
+									<Label bindId="optionIcon" id="option"></Label>
+									<Label bindId="optionLbl" id="optionLbl"></Label>
+								</View>
+							</ItemTemplate>
+						</Templates>
+						<ListSection id="section"></ListSection>
+					</ListView>
+				</View>
+			</View>
+		</ScrollView>
+	</Window>
+</Alloy>

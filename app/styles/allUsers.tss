@@ -1,0 +1,292 @@
+"#detailsWin":{
+	backgroundColor: "#fff",
+	theme: "Theme.AppCompat.Fullscreen"
+}
+
+"#userContainer":{
+	width:Titanium.UI.FILL,
+	height: "17%",
+	top: 0,
+	backgroundColor: "#1a1360"
+}
+
+"#leftCircle":{
+	width: 200,
+	height: 200,
+	borderRadius: 100,
+	backgroundColor: "#fff",
+	opacity: 0.3,
+	left: -100,
+	top: -100
+}
+
+"#rightCircel":{
+	width: 100,
+	height: 100,
+	borderRadius: 100,
+	backgroundColor: "#fff",
+	opacity: 0.3,
+	right: -20,
+	top: -20
+}
+
+"#title":{
+	font:{
+		fontSize: 24,
+		fontFamily: "Montserrat-Bold.ttf",
+		fontWeight: "bold"
+	},
+	color: "#fff",
+	width:Titanium.UI.FILL,
+	textAlign: "left"
+}
+
+"#userInfo":{
+	width: "50%",
+	height:Titanium.UI.SIZE,
+	layout: "vertical",
+	left: 20
+}
+
+"#tabsContainer":{
+	height: Titanium.UI.SIZE,
+	width: '70%',
+	bottom: '0dp',
+	zIndex: 10000
+}
+
+"#indicatorsContainer": {
+	height: Ti.UI.SIZE,
+	width: '52%',
+	top: '16%',
+	zIndex: 10000,
+	// backgroundColor: 'yellow'
+}
+
+"#indicatorR": {
+	height: '13dp',
+	width: '13dp',
+	backgroundColor: '#1a1360',
+	left: '2dp',
+	bottom: '2dp'
+}
+
+"#indicatorF": {
+	height: '13dp',
+	width: '13dp',
+	backgroundColor: '#1a1360',
+	right: '2dp',
+	bottom: '2dp'
+}
+
+"#tabsContainer": {
+	height: '33%',
+	width: '70%',
+	bottom: '0dp',
+	layout: 'vertical'
+}
+
+"#lbls": {
+	height: Ti.UI.SIZE,
+	width: Ti.UI.FILL,
+	// backgroundColor: 'red'
+}
+
+"#lines": {
+	height: Ti.UI.SIZE,
+	width: Ti.UI.FILL,
+	// backgroundColor: 'green'
+}
+
+"#registeredUsers": {
+	color: "#fff",
+	font: {
+		fontSize: '15dp',
+		fontFamily: "Montserrat-Bold.ttf"
+	},
+	left: '0dp',
+	top: '0dp'
+}
+
+"#facebookUsers": {
+	color: "#fff",
+	font: {
+		fontSize: '15dp',
+		fontFamily: "Montserrat-Bold.ttf"
+	},
+	right: '0dp',
+	top: '0dp',
+	opacity: 0.5
+}
+
+"#lineR": {
+	backgroundColor: '#fff',
+	width: '110dp',
+	height: '1dp',
+	left: '0dp'
+}
+
+"#lineF": {
+	backgroundColor: '#fff',
+	width: '100dp',
+	height: '1dp',
+	right: '0dp'
+}
+
+"#searchContainer": {
+	height: '10%',
+	width: Ti.UI.FILL,
+	// top: '17%',
+	backgroundColor: '#fff',
+	borderColor: '#dbdbdb',
+	layout: 'horizontal',
+}
+
+"#shadow": {
+	height: '0.5%',
+	width: Ti.UI.FILL,
+	// top: '17.5%',
+	backgroundColor: '#dbdbdb',
+	opacity: 0.5
+}
+
+"#iconContainer": {
+	height: Ti.UI.FILL,
+	width: '15%',
+	// backgroundColor: 'green'
+}
+
+"#searchIcon": {
+	text: 'search',
+	font: {
+		fontFamily:  'material_icons.ttf',
+		fontSize: '30dp'
+	},
+	color: "#595858"
+}
+
+'#searchField': {
+	color: "#595858",
+	width: '80%',
+	touchFeedbackColor: 'red'
+}
+
+"#inviteContainer": {
+	height: 40,
+	width: Ti.UI.FILL,
+	backgroundColor: '#1a1360',
+	// layout: 'horizontal',
+	bottom: '0dp'
+}
+
+"#link": {
+	left: '10dp',
+	color: '#fff',
+	left: '20dp',
+	font:{
+		fontFamily: "Montserrat-Regular.ttf"
+	}
+	// top: '20%'
+}
+
+"#inviteBtn": {
+	height: '30dp',
+	width: '90dp',
+	backgroundColor: '#fff',
+	right: '20dp',
+	// top: '20%'
+}
+
+"#listViewContainer": {
+	// backgroundColor: "darkgray",
+	height: Ti.UI.FILL,
+	width: Ti.UI.FILL,
+	bottom: 40,
+}
+
+"#contentContainer": {
+	height: '83%',
+	width: Ti.UI.FILL,
+	bottom: '0dp',
+	layout: 'vertical',
+	// backgroundColor: 'yellow'
+}
+
+"#btnsContainer": {
+	height: '10%',
+	width: Ti.UI.FILL,
+	backgroundColor: '#fff'
+}
+
+////////////////////////style of listView
+
+"#container": {
+	height: '60dp',
+	// backgroundColor: 'blue',
+	width: '90%',
+	top: '5dp',
+	layout: 'horizontal'
+}
+
+"#leftContainer": {
+	height: Ti.UI.FILL,
+	width: '70%',
+	layout: 'horizontal'
+	// backgroundColor: 'red',
+}
+
+"#rightContainer": {
+	height: Ti.UI.FILL,
+	width: '30%',
+	// backgroundColor: 'yellow'
+}
+
+"#photoContainer": {
+	height: '50dp',
+	width: '50dp',
+	borderColor: '#5bffff',
+	borderRadius: 25,
+	left: '0dp',
+	borderWidth: '2dp'
+}
+
+"#profilePhoto": {
+	height: Ti.UI.FILL,
+	width: Ti.UI.FILL
+}
+
+"#defaultPic": {
+	font: {
+		fontFamily: 'material_icons.ttf',
+		fontSize: '40dp'
+	},
+	color: '#dbdbdb'
+}
+
+"#profilePhoto": {
+	height: Ti.UI.FILL,
+	width: Ti.UI.FILL
+}
+
+"#name": {
+	color: 'black',
+	left: '10dp',
+	font: {
+		fontSize: "Montserrat-Regular.ttf"
+	}
+}
+
+"#status": {
+	color: '#29c631',
+	font: {
+		fontWeight: 'bold',
+		fontFamily: "Montserrat-Regular.ttf"
+	},
+	right: '0dp'
+}
+
+"#invite":{
+	font:{
+		fontFamily:"Montserrat-Regular.ttf"
+	}
+}

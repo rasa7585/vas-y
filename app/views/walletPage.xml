@@ -1,0 +1,32 @@
+<Alloy>
+	<View id="mainContainer">
+		<View id="topContainer">
+			<View id="imageContainer">
+				<ImageView id="topImage"></ImageView>
+			</View>
+			<View id="Wallets">
+				<Label id="walletsLbl">Wallets</Label>
+			</View>
+			<Label id="amountLBL">$3759,00</Label>
+			<Label id="totalBallanceLBL">Total ballance</Label>
+			<View id="buttonsContainer">
+				<View id="leftBtn">
+					<View class="iconContainer">
+						<View id="downIcon">
+							<Label id="down" text="keyboard_arrow_down"></Label>
+						</View>
+						<Label id="saveUp">Save Up</Label>
+					</View>
+				</View>
+				<View id="rightBtn">
+					<View class="iconContainer">
+						<View id="upIcon">
+							<Label id="up" text="keyboard_arrow_up"></Label>
+						</View>
+						<Label id="spend">Spend</Label>
+					</View>
+				</View>
+			</View>
+		</View>
+	</View>
+</Alloy>

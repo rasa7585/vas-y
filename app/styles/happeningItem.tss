@@ -1,0 +1,114 @@
+"#container":{
+	width:"50%",
+	height:Titanium.UI.SIZE,
+	// layout: "horizontal"
+}
+"#item": {
+	width: "95%",
+	height: 200,
+	top: 15,
+	backgroundColor: "transparent"
+}
+
+"#item1": {
+	width: "100%",
+	height: 200,
+	top: 15,
+	backgroundColor: "transparent"
+}
+
+
+"#happeningImg":{
+	image: "/images/photos/pic.jpg",
+	width: "95%",
+	height:Titanium.UI.FILL,
+	borderRadius: 7
+}
+
+"#happeningImg1":{
+	image: "/images/photos/pic.jpg",
+	width: "98%",
+	height:Titanium.UI.FILL,
+	borderRadius: 7
+}
+
+"#middel":{
+	width: "95%",
+	height:Titanium.UI.FILL,
+	backgroundColor: "#000",
+	opacity: 0.5,
+	borderRadius: 7
+}
+
+"#middel1":{
+	width: "98%",
+	height:Titanium.UI.FILL,
+	backgroundColor: "#000",
+	opacity: 0.5,
+	borderRadius: 7
+}
+
+"#topView":{
+	width: "95%",
+	height:Titanium.UI.FILL,
+	backgroundColor: "transparent",
+	// opacity:0.4,
+	zIndex: 1000,
+	borderRadius: 7
+}
+
+"#topView1":{
+	width: "98%",
+	height:Titanium.UI.FILL,
+	backgroundColor: "transparent",
+	// opacity: 0.4,
+	zIndex: 1000,
+	borderRadius: 7
+}
+
+"#completedTaskPresentage":{
+	width: 45,
+	height: 25,
+	backgroundColor: "#03c564",
+	borderRadius: 10,
+	top: 15,
+	left: 15
+}
+
+"#presetage":{
+	// text: "90 %",
+	width:Titanium.UI.FILL,
+	textAlign: "center",
+	color: "#fff",
+	font:{
+		fontSize: 10,
+		fontWeight: "bold",
+		fontFamily: "Montserrat-Bold.ttf"
+	}
+}
+
+"#info":{
+	width:Titanium.UI.SIZE,
+	height:Titanium.UI.SIZE,
+	layout: "vertical"
+}
+
+"#title":{
+	text: "Climate Change",
+	font:{
+		fontSize: 18,
+		fontFamily: "Montserrat-Bold.ttf"
+	},
+	textAlign: "center",
+	color: "#fff"
+}
+
+"#desc":{
+	text: "A conservative answer to climate change",
+	font:{
+		fontSize: 11,
+		fontFamily: "Montserrat-Regular.ttf"
+	},
+	textAlign: "center",
+	color: "#fff"
+}

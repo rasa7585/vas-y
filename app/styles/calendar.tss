@@ -1,0 +1,170 @@
+"#userContainer":{
+	width:Titanium.UI.FILL,
+	height: 100,
+	top: 0,
+	backgroundColor: "#1a1360"
+}
+
+"#leftCircle":{
+	width: 180,
+	height: 180,
+	borderRadius: 100,
+	backgroundColor: "#fff",
+	opacity: 0.3,
+	left: -100,
+	top: -100
+}
+
+"#rightCircel":{
+	width: 85,
+	height: 85,
+	borderRadius: 100,
+	backgroundColor: "#fff",
+	opacity: 0.3,
+	right: -20,
+	top: -20
+}
+
+"#photoContainer": {
+	backgroundColor: 'transparent',
+	right: 20,
+	width: Titanium.UI.SIZE,
+	height:Titanium.UI.SIZE
+}
+
+"#userInfo":{
+	width: "50%",
+	height:Titanium.UI.SIZE,
+	layout: "vertical",
+	left: 20,
+	backgroundColor: "transparent"
+}
+
+"#title":{
+	font:{
+		fontSize: 24,
+		fontFamily: "Montserrat-Bold.ttf",
+		fontWeight: "bold"
+	},
+	color: "#fff",
+	width:Titanium.UI.FILL,
+	textAlign: "left"
+}
+
+"#todayTask":{
+	font:{
+		fontSize: 12,
+		fontFamily: "Montserrat-Regular.ttf"
+	},
+	color: "#fff",
+	width:Titanium.UI.FILL,
+	textAlign: "left"
+}
+
+"#profilePhoto": {
+	top: 10,
+	backgroundColor: '#D9ffffff',
+	height: 60,
+	width: 60,
+	borderRadius: 30
+}
+
+"#defauleProfImg": {
+	font: {
+		fontFamily: 'material_icons.ttf',
+		fontSize: '70dp'
+	},
+	color: '#dbdbdb'
+}
+
+"#profileImg": {
+	height: Ti.UI.FILL,
+	width: Ti.UI.FILL,
+	zIndex: 1000
+}
+
+"#scrollView":{
+	width:Titanium.UI.FILL,
+	height:Titanium.UI.FILL,
+	layout: "vertical",
+	top: 100,
+	backgroundColor:"#fff"
+}
+
+"#currentDate":{
+	width:"90%",
+	height:50,
+	left:"5%"
+}
+
+"#toolBar":{
+	top: '0dp',
+	width: "90%",
+	left:"5%",
+	height: 50,
+	backgroundColor: '#FFFFD800',
+	layout: 'vertical',
+	backgroundColor: 'blue'
+}
+
+"#toolBarTitle":{
+	top: '3dp',
+	width: "90%",
+	height: '26dp',
+	left:"5%"
+}
+
+"#toolBarDays":{
+	top: '2dp',
+	width: '322dp',
+	height: '22dp',
+	layout: 'horizontal',
+	// left: '-1dp',
+	backgroundColor: 'red',
+	bottom:0
+}
+
+"#prevMonth":{
+	left: '15dp',
+	width: 'auto',
+	height: 'auto',
+	title: '<',
+
+	backgroundColor: "transparent"
+}
+
+"#monthTitle":{
+	width: '200dp',
+	height: '24dp',
+	textAlign: 'center',
+	color: '#3a4756',
+	font: {
+		fontSize: 20,
+		fontWeight: 'bold'
+	}
+}
+
+"#nextMonth":{
+	right : '15dp',
+	width : 'auto',
+	height : 'auto',
+	title : '>',
+	backgroundColor:"yellow"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

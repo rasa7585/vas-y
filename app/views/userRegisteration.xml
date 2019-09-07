@@ -1,0 +1,27 @@
+<Alloy>
+	<Window id="userWind" class="userRegWin">
+		<ScrollView id="scrollView">
+			<ImageView id="topImg"/>
+			<View id="content">
+				<View id="nameView">
+					<ImageView id="nameIcon" />
+					<TextField id="name" />
+				</View>
+				<View id="usernameView">
+					<Label id="userIcon"></Label>
+					<TextField id="username" />
+					<!-- <Widget src="input-materialdesign" id="username" /> -->
+				</View>
+				<View id="passwordView">
+					<ImageView id="passwordIcon"/>
+					<TextField id="password" />
+				</View>
+				<Button id="loginBtn" onClick="createUser">Create User</Button>
+				<View id="question">
+					<Label id="questionLabel">Do You Have Already an Account?</Label>
+					<Label id="signin" onClick="login">SIGN IN</Label>
+				</View>
+			</View>
+		</ScrollView>
+	</Window>
+</Alloy>

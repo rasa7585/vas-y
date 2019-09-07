@@ -1,0 +1,93 @@
+"#task":{
+	width: "90%",
+	height: 50,
+	backgroundColor: "#fff",
+	top:0,
+	zindex:0,
+}
+
+"#taskView":{
+	width:"90%",
+	height:65,
+	backgroundColor:"transparent",
+	zIndex:10,
+	layout:"vertical"
+}
+
+"#taskContainer":{
+	width:Titanium.UI.FILL,
+	height: "55%",
+	top: "34%",
+	backgroundColor: "#f8fcff",
+	layout: "vertical"
+}
+
+"#taskLabel":{
+	text: "Tasks 1",
+	font:{
+		fontFamily: "Montserrat-Bold.ttf",
+		fontSize: 13
+	},
+	color: "#1a1360",
+	width: "50%",
+	height:Titanium.UI.FILL,
+	textAlign: "left",
+	left: 10
+}
+
+"#readMore":{
+	width:Titanium.UI.SIZE,
+	height:Titanium.UI.FILL,
+	right: 10,
+
+	layout: "horizontal"
+}
+
+"#readMoreLabel":{
+	text: "Read More",
+	font:{
+		fontFamily: "Montserrat-Regular.ttf",
+		fontSize: 11
+	},
+	height:Titanium.UI.FILL,
+	color: "#aaa"
+}
+
+"#readMoreIcon":{
+	text: "\uf054",
+	font:{
+		fontFamily: "fontIcon.ttf",
+		fontSize: 13
+	},
+	color: "#aaa",
+	left: 10,
+	height:Titanium.UI.FILL
+}
+
+"#progress":{
+	width: "30%",
+	height:Titanium.UI.SIZE,
+	left: 0,
+	bottom: 0,
+	// layout:"horizontal",
+	// backgroundColor: "blue",
+	zIndex:1000
+}
+
+"#progressbar":{
+	width: "95%",
+	height: 3,
+	left: 0,
+	bottom: 5,
+	backgroundColor: "#03c564"
+}
+"#progressCircle":{
+	width: 15,
+	height: 15,
+	// backgroundColor:"#03c564",
+	backgroundColor: "#03c564",
+	// top:10,
+	borderRadius: 20,
+	right: 0,
+	zIndex:1000
+}

@@ -1,0 +1,27 @@
+<Alloy>
+	<Window class="container" id="container">
+		<ScrollableView id="scrollableView"></ScrollableView>
+		<View id="bottomNavigation">
+			<View id="aboutView" class="navView" onClick="goToDetails">
+				<ImageView id="aboutIcon" class="navIcon" />
+				<Label id="aboutLabel" class="navLabel">Details</Label>
+			</View>
+			<View id="participantView" class="navView" onClick="goToUsers">
+				<ImageView id="participantIcon" class="navIcon" />
+				<Label id="participantLabel" class="navLabel">Participants</Label>
+			</View>
+			<View id="walletView" class="navView" onClick="goToWallet">
+				<ImageView id="walletIcon" class="navIcon" />
+				<Label id="walletLabel" class="navLabel">Wallet</Label>
+			</View>
+			<View id="calendarView" class="navView" onClick="goToCalendar">
+				<ImageView id="calendarIcon" class="navIcon" />
+				<Label id="calendarLabel" class="navLabel">Calendar</Label>
+			</View>
+			<View id="taskView" class="navView" onClick="goToTasks">
+				<ImageView id="taskIcon" class="navIcon" />
+				<Label id="taskLabel" class="navLabel">Tasks</Label>
+			</View>
+		</View>
+	</Window>
+</Alloy>

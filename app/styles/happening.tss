@@ -1,0 +1,301 @@
+".happeningWin":{
+	backgroundColor: "#f8fcff",
+	theme: "Theme.AppCompat.Fullscreen"
+}
+
+"#scrollView":{
+	width:Titanium.UI.FILL,
+	height: "100%",
+	scrollType: 'vertical',
+	top: "17%",
+	backgroundColor: "#fff"
+}
+
+"#topView":{
+	width:Titanium.UI.FILL,
+	height: "17%",
+	top: 0,
+	backgroundColor: "#1a1360"
+}
+
+"#title":{
+	font:{
+		fontSize: 18,
+		fontFamily: "Montserrat-Bold.ttf",
+		fontWeight: "bold"
+	},
+	color: "#fff",
+	width: "90%",
+	textAlign: "left"
+}
+
+"#leftCircle":{
+	width: 200,
+	height: 200,
+	borderRadius: 100,
+	backgroundColor: "#fff",
+	opacity: 0.3,
+	left: -100,
+	top: -100
+}
+
+"#rightCircel":{
+	width: 100,
+	height: 100,
+	borderRadius: 100,
+	backgroundColor: "#fff",
+	opacity: 0.3,
+	right: -20,
+	top: -20
+}
+
+"#photoContainer": {
+	backgroundColor: 'transparent',
+	right: 20,
+	width: Titanium.UI.SIZE,
+	height:Titanium.UI.SIZE
+}
+
+"#profilePhoto": {
+	backgroundColor: 'transparent',
+	height: '60dp',
+	width: '60dp',
+	borderRadius: 70
+}
+
+"#defauleProfImg": {
+	font: {
+		fontFamily: 'material_icons.ttf',
+		fontSize: '70dp'
+	},
+	color: '#dbdbdb'
+}
+
+"#profileImg": {
+	image: "/images/photos/pic.png",
+	height: Ti.UI.FILL,
+	width: Ti.UI.FILL,
+	zIndex: 1000
+}
+
+"#happeningDesc":{
+	width: "90%",
+	height: Ti.UI.SIZE,
+	layout: "vertical",
+	top: 10,
+	backgroundColor: "#fff"
+}
+
+"#detailsTitle":{
+	font:{
+		fontFamily: "Montserrat-Regular.ttf",
+		fontSize: 14
+	},
+	width:Titanium.UI.FILL,
+	textAlign: "left",
+	color: "#1a1360"
+}
+
+"#detailsTextField":{
+	width: "70%",
+	// height: 120,
+	font:{
+		fontFamily: "Montserrat-Regular.ttf",
+		fontSize: 12
+	},
+	borderColor: "#aeaeae",
+	borderWidth: 1,
+	borderRadius: 3,
+	right:0,
+	lines:4
+}
+
+"#happeningInfo":{
+	width: "90%",
+	layout: "vertical",
+	padding: 15,
+	top: 10,
+	backgroundColor: "#fff"
+}
+
+".textFieldContainer":{
+	width:Titanium.UI.FILL,
+	height:Titanium.UI.SIZE,
+	bottom: 15
+}
+
+".textFieldLabel":{
+	font:{
+		fontFamily: "Montserrat-Regular.ttf",
+		fontSize: 13
+	},
+	color: "#1a1360",
+	left: 0,
+	width: "20%"
+}
+
+".textField":{
+	width: "70%",
+	right: 0,
+	color: "#454545",
+	height: 35,
+	borderRadius: 2,
+	borderColor: "#aeaeae",
+	borderWidth: 1,
+	font:{
+		fontFamily: "Montserrat-Regular.ttf",
+		fontSize: 15
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+"#content":{
+	width: Titanium.UI.FILL,
+	height: Titanium.UI.SIZE,
+	layout: "vertical",
+	top: "22%",
+	bottom: 3
+}
+
+"#happeningName":{
+	width: "80%",
+	height: 50,
+	backgroundColor: "#150f55",
+	left: "10%"
+}
+
+"#happeningTextField":{
+	font:{
+		fontFamily: "Montserrat-Regular.ttf",
+		fontSize: 9
+	},
+	right: 0
+}
+
+"#textArea":{
+	width: "70%",
+	height: 120,
+	font:{
+		fontFamily: "Montserrat-Regular.ttf",
+		fontSize: 12
+	},
+	borderColor: "#aeaeae",
+	borderWidth: 1,
+	borderRadius: 3,
+	right:0
+}
+
+"#locationTextField":{
+	titleHint: " Location",
+	font:{
+		fontFamily: "Montserrat-Regular.ttf",
+		fontSize: 12
+	}
+}
+
+"#budget":{
+	width: "80%",
+	height: 50,
+	backgroundColor: "#150f55",
+	left: "10%",
+	top: 15
+}
+
+"#budgetTextField":{
+	keyboardType:Titanium.UI.KEYBOARD_TYPE_NUMBER_PAD,
+	font:{
+		fontFamily: "Montserrat-Regular.ttf",
+		fontSize: 12
+	}
+}
+
+"#publicContainer":{
+	width: "50%",
+	left: 0,
+	height: 40,
+	layout: "horizontal"
+}
+
+"#privateContainer":{
+	width: "50%",
+	right: 0,
+	height: 40,
+	layout: "horizontal"
+}
+
+"#publicLabel":{
+	text: "Public",
+	font:{
+		fontSize: 14,
+		fontFamily: "Montserrat-Regular.ttf"
+	},
+	color: "#1a1360"
+}
+
+"#privateLabel":{
+	text: "Private",
+	font:{
+		fontSize: 14
+	},
+	color: "#1a1360"
+}
+
+"#publicRadio":{
+	image: "/images/radio_checked.png",
+	left: 15,
+	width: 15,
+	height: 15
+}
+
+"#privateRadio":{
+	image: "/images/radio_unchecked.png",
+	left: 15,
+	width: 15,
+	height: 15
+}
+
+"#saveBtn":{
+	width: "80%",
+	height: 40,
+	backgroundColor: "#1a1360",
+	color: "#fff",
+	font:{
+		fontFamily: "Montserrat-Regular.ttf",
+		fontSize: 13
+	},
+	// top: 10,
+	borderRadius: 2,
+	title: "Save",
+	bottom: 10
+}
+
+"#photoView":{
+	width: 65,
+	height: 65,
+	borderRadius: 5,
+	backgroundColor: "#150f55",
+	left: "30%",
+	top: 10,
+	bottom:15
+}
+
+"#cameraIcon":{
+	text: "\uf030",
+	font:{
+		fontFamily: "fontIcon.ttf",
+		fontSize: 24
+	},
+	color: "#fff",
+	width:Titanium.UI.FILL,
+	textAlign: "center"
+}
+

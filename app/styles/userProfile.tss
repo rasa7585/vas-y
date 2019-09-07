@@ -1,0 +1,159 @@
+"#profileWin":{
+	theme: "Theme.AppCompat.Fullscreen"
+}
+
+"#holeContainer": {
+	backgroundColor: 'white',
+	height: Ti.UI.FILL,
+	width: Ti.UI.FILL,
+	layout: 'vertical'
+}
+
+"#photoContainer": {
+	backgroundColor: 'white',
+	height: '160dp',
+	width: Titanium.UI.SIZE,
+}
+
+"#profilePhoto": {
+	backgroundColor: 'transparent',
+	height: '140dp',
+	width: '140dp',
+	borderRadius: 70,
+	borderColor: '#419fd9',
+	borderWidth: '5dp'
+}
+
+"#defauleProfImg": {
+	font: {
+		fontFamily: 'material_icons.ttf',
+		fontSize: '120dp'
+	},
+	color: '#dbdbdb'
+}
+
+"#profileImg": {
+	height: Ti.UI.FILL,
+	width: Ti.UI.FILL
+}
+
+"#nameContainer": {
+	backgroundColor: 'white',
+	height: Ti.UI.SIZE,
+	width: Ti.UI.FILL
+}
+
+"#name": {
+	color: '#3a3a3a',
+	font: {
+		fontSize: '30dp'
+	},
+	top: '0dp'
+}
+
+"#emailContainer": {
+	backgroundColor: 'white',
+	height: '40dp',
+	width: Ti.UI.FILL
+}
+
+"#innerEmailContainer": {
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
+	layout: 'horizontal'
+}
+
+"#emailIcon": {
+	font: {
+		fontFamily: 'material_icons.ttf',
+		fontSize: '20dp'
+	},
+	color: '#419fd9'
+}
+
+"#email": {
+	color: '#419fd9',
+	left: '5dp',
+	font: {
+		fontSize: '17dp'
+	}
+}
+
+"#line": {
+	backgroundColor: '#419fd9',
+	height: '2dp',
+	width: '90%'
+}
+
+"#interestsContainer": {
+	backgroundColor: 'white',
+	height: '320dp',
+	width: Ti.UI.FILL,
+	layout: 'vertical'
+}
+
+"#title": {
+	color: '#666564',
+	font: {
+		fontSize: '20dp'
+	},
+	left: '20dp',
+	top: '10dp'
+}
+
+"#listViewContainer": {
+	height: Ti.UI.SIZE,
+	width: '40%',
+	layout: 'vertical',
+	left: '20dp',
+	backgroundColor: 'transparent',
+	top: '10dp'
+}
+
+"#container": {
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
+	layout: 'horizontal',
+	top: '12dp',
+	// backgroundColor: 'yellow',
+	left: '10dp'
+}
+
+"#option": {
+	font: {
+		fontFamily: 'material_icons.ttf',
+		fontSize: '23dp'
+	},
+	color: '#419fd9'
+}
+
+"#optionLbl": {
+	color: '#666564',
+	font: {
+		fontSize: '15dp'
+	},
+	left: '7dp',
+	top: '0dp'
+}
+
+"#cameraIcon":{
+	text:"\uf030",
+	font:{
+		fontFamily:"fontIcon.ttf",
+		fontSize:20
+	},
+	color:"#fff",
+	textAlign:"center",
+	width:Titanium.UI.FILL
+	
+}
+
+"#iconContainer":{
+	width:45,
+	height:45,
+	borderRadius:23,
+	backgroundColor:"#000",
+	opacity:0.7,
+	bottom:0,
+	left:0,
+}

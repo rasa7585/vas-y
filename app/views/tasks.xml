@@ -1,0 +1,55 @@
+<Alloy>
+	<Window class="container">
+		<View id="userContainer">
+			<View id="info">
+				<View id="userInfo">
+					<Label id="title"></Label>
+					<Label id="todayDesc"></Label>
+				</View>
+				<View id="leftCircle"></View>
+				<View id="rightCircel"></View>
+				<View id="photoContainer">
+					<View id="profilePhoto">
+						<ImageView id="profileImg" />
+					</View>
+				</View>
+			</View>
+			<View id="reminder">
+				<ImageView id="closeIcon" />
+				<View id="left">
+					<Label id="reminderTitle" class="reminderLabel"></Label>
+					<Label id="reminderContent" class="reminderLabel"></Label>
+					<Label id="reminderTime" class="reminderLabel"></Label>
+				</View>
+				<View id="right">
+					<ImageView id="reminderIcon" />
+				</View>
+			</View>
+		</View>
+		<View id="taskContainer">
+			<Label id="todayLabel">Today</Label>
+			<ListView id="scrollView" defaultItemTemplate="template">
+				<Templates>
+					<ItemTemplate name="template">
+						<View id="task">
+							<Label id="taskLabel" bindId="taskLabel"></Label>
+							<View id="readMore">
+								<Label id="readMoreLabel"></Label>
+								<Label id="readMoreIcon"></Label>
+							</View>
+							
+						</View>
+						<View id="progress">
+								<View id="progressbar"></View>
+								<View id="progressCircle"></View>
+							</View>
+						<View id="bottomShadow"></View>
+						<View id="leftShadow"></View>
+						<View id="rightShadow"></View>
+					</ItemTemplate>
+				</Templates>
+				<ListSection id="taskItems"></ListSection>
+			</ListView>
+		</View>
+	</Window>
+</Alloy>

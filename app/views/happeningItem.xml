@@ -1,0 +1,17 @@
+<Alloy>
+	<View id="container">
+		<View id="item" onClick="showDetails">
+			<ImageView id="happeningImg" />
+			<View id="middel"></View>
+			<View id="topView">
+				<View id="completedTaskPresentage" backgroundColor="#e3000d">
+					<Label id="presetage">25 %</Label>
+				</View>
+				<View id="info">
+					<Label id="title"></Label>
+					<Label id="desc"></Label>
+				</View>
+			</View>
+		</View>
+	</View>
+</Alloy>

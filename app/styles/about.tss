@@ -1,0 +1,471 @@
+
+"#container": {
+	width:Titanium.UI.FILL,
+	height:Titanium.UI.FILL,
+	backgroundColor: "#f8fcff",
+	layout: "vertical"
+}
+
+"#topView":{
+	width:Titanium.UI.FILL,
+	height: "17%",
+	top: 0,
+	backgroundColor: "#1a1360"
+}
+
+"#title":{
+	font:{
+		fontSize: 18,
+		fontFamily: "Montserrat-Bold.ttf",
+		fontWeight: "bold"
+	},
+	color: "#fff",
+	width: "90%",
+	textAlign: "left"
+}
+
+"#leftCircle":{
+	width: 200,
+	height: 200,
+	borderRadius: 100,
+	backgroundColor: "#fff",
+	opacity: 0.3,
+	left: -100,
+	top: -100
+}
+
+"#rightCircel":{
+	width: 100,
+	height: 100,
+	borderRadius: 100,
+	backgroundColor: "#fff",
+	opacity: 0.3,
+	right: -20,
+	top: -20
+}
+
+"#photoContainer": {
+	backgroundColor: 'transparent',
+	right: 20,
+	width: Titanium.UI.FILL,
+	height:Titanium.UI.FILL
+}
+
+"#profilePhoto": {
+	backgroundColor: 'transparent',
+	height: '60dp',
+	width: '60dp',
+	borderRadius: 70
+}
+
+"#defauleProfImg": {
+	font: {
+		fontFamily: 'material_icons.ttf',
+		fontSize: '70dp'
+	},
+	color: '#dbdbdb'
+}
+
+"#profileImg": {
+	image: "/images/photos/pic.png",
+	height: Ti.UI.FILL,
+	width: Ti.UI.FILL,
+	zIndex: 1000
+}
+
+"#scrollView":{
+	width:Titanium.UI.FILL,
+	height: "83%",
+	layout: "vertical"
+}
+
+"#happeningDesc":{
+	width: "90%",
+	height: 150,
+	//layout: "vertical",
+	padding: 15,
+	top: 10,
+	backgroundColor: "#fff"
+}
+
+".desc":{
+	font:{
+		fontFamily: "Montserrat-Regular.ttf",
+		fontSize: 12
+	},
+	width: "100%",
+	textAlign: "left",
+	color: "#222",
+	top: 0
+}
+
+"#happeningInfo":{
+	width: "90%",
+	height:Ti.UI.SIZE,
+	layout: "vertical",
+	padding: 15,
+	top: 10,
+	backgroundColor: "#fff"
+}
+
+"#createdDate":{
+	width:Titanium.UI.FILL,
+	height: 45
+}
+
+"#locationView":{
+	width:Titanium.UI.FILL,
+	height:Titanium.UI.SIZE
+}
+
+"#budgetView":{
+	width:Titanium.UI.FILL,
+	height:Titanium.UI.SIZE
+}
+
+"#createdDate":{
+	width:Titanium.UI.FILL,
+	height:Titanium.UI.SIZE
+}
+"#dateIcon":{
+	image:"/images/calendar004 - E144.png",
+	left: 0
+}
+
+"#locationIcon":{
+	image: "/images/map001 - E02C.png",
+	left: 0
+}
+
+"#budgetIcon":{
+	image: "/images/rocket001 - E158.png",
+	left:0
+}
+
+"#bookingView":{
+	width:Titanium.UI.FILL,
+	height:Titanium.UI.SIZE
+}
+
+"#bookingIcon":{
+	image:"/images/check004 - E105.png",
+	left: 0
+}
+
+
+"#buttons":{
+	width: "90%",
+	height:Titanium.UI.SIZE,
+	top: 18
+}
+
+"#rsvp":{
+	text: "Rsvp",
+	left: 0,
+	font:{
+		fontFamily: "Montserrat-Regular.ttf",
+		fontSize: 14
+	},
+	color: "#1a1360",
+	textAlign: "left"
+}
+
+"#btnContainer":{
+	width: "50%",
+	height:Titanium.UI.SIZE,
+	//layout:"horizontal",
+	right: 0
+}
+
+"#yes":{
+	title: "Yes",
+	backgroundColor: "#00c85d",
+	color: "#fff",
+	width: "48%",
+	height: 30,
+	borderRadius: 5,
+	left: 0,
+	width: "50%"
+}
+
+"#no":{
+	title: "No",
+	backgroundColor: "#f4c6d0",
+	color: "#fff",
+	width: "48%",
+	height: 30,
+	borderRadius: 5,
+	right: 0
+}
+
+"#participantView":{
+	width: "90%",
+	height:Titanium.UI.SIZE,
+	top: 10
+}
+
+"#participantLabel":{
+	text: "Participants",
+	left: 0,
+	font:{
+		fontFamily: "Montserrat-Regular.ttf",
+		fontSize: 14
+	},
+	color: "#1a1360",
+	textAlign: "left",
+	width: "30%",
+	height:Titanium.UI.SIZE
+}
+
+"#participantPhoto":{
+	width: "40%",
+	height: 40,
+	right: "10%"
+}
+
+"#photos":{
+	width: 90,
+	layout: "horizontal",
+	right: 10
+}
+
+"#addIcon":{
+	text: "\uf055",
+	font:{
+		fontFamily: "fontIcon.ttf",
+		fontSize: 24
+	},
+	color: "#00c85d",
+	right: 0,
+	width: "10%"
+}
+
+"#details":{
+	width: "100%",
+	height:Titanium.UI.FILL,
+	borderColor: "#efefef",
+	borderWidth: 1,
+	borderRadius: 3,
+	bottom: 0,
+	color: "#1a1360",
+	font:{
+		fontFamily: "Montserrat-Regular.ttf",
+		fontSize: 15
+	},
+	hintText: "Description ...",
+	hintTextColor: "#aaa"
+}
+
+"#descTitle":{
+	width: "100%",
+	textAlign: "left",
+	font:{
+		fontFamily: "Montserrat-Bold.ttf",
+		fontSize: 15
+	},
+	color: "#1a1360",
+	top: 0
+}
+
+".textField":{
+	width: "85%",
+	height: 38,
+	borderColor: "#efefef",
+	borderWidth: 1,
+	font:{
+		fontSize: 13,
+		fontFamily: "Montserrat-Regular.ttf"
+	},
+	color: "#1a1360",
+	hintTextColor: "#aaa",
+	right: 0
+}
+
+".fieldsContainer":{
+	top: 5,
+	width:Titanium.UI.FILL,
+	height: 45
+}
+
+"#dateTextField":{
+	hintText: "Happening Date"
+}
+
+"#locationTextField":{
+	hintText: "Location"
+}
+
+"#budgetTextField":{
+	hintText: "Budget"
+}
+
+"#saveView":{
+	width:Titanium.UI.FILL,
+	height: 50
+}
+
+"#saveBtn":{
+	title: "Save",
+	font:{
+		fontFamily: "Montserrat-Bold.ttf",
+		fontSize: 14
+	},
+	color: "#99ffffff",
+	backgroundColor: "#1a1360",
+	width: "90%",
+	height: 35
+}
+
+".labels":{
+	font:{
+		fontFamily: "Montserrat-Regular.ttf",
+		fontSize: 12
+	},
+	color: "#1a1360",
+	left: 50
+}
+
+"#photoUpload":{
+	width: 130,
+	height: 30,
+	borderColor: "#1a1360",
+	borderWidth: 1,
+	borderRadius: 5,
+	backgroundColor: "transparent",
+	left: 0
+}
+
+"#photoIcon":{
+	text: "\uf030",
+	font:{
+		fontFamily: "fontIcon.ttf",
+		fontSize: 22
+	},
+	color: "#fff",
+	right: 10
+}
+
+"#uploadLabel":{
+	text: "Upload Photo",
+	font:{
+		fontFamily: "Montserrat-Regular.ttf",
+		fontSize: 13
+	},
+	color: "#1a1360",
+	left: 30
+}
+
+"#showPhoto":{
+	width:Titanium.UI.FILL,
+	height:Titanium.UI.FILL,
+	visible: false
+}
+
+"#photo":{
+	width:Titanium.UI.FILL,
+	height:Titanium.UI.FILL,
+	right: 0,
+	borderRadius: 5
+}
+
+"#userInfo":{
+	zIndex: 1
+}
+
+"#happeningPhotoView":{
+	width: 60,
+	height: 60,
+	borderRadius: 30,
+	top: 15,
+	right: "5%",
+	zIndex: 1000,
+}
+
+"#publicContainer":{
+	width: "30%",
+	left: "20%",
+	height: 40,
+	layout: "horizontal"
+}
+
+"#privateContainer":{
+	width: "30%",
+	right: "20%",
+	height: 40,
+	layout: "horizontal"
+}
+
+"#publicLabel":{
+	text: "Public",
+	font:{
+		fontSize: 14,
+		fontFamily: "Montserrat-Regular.ttf"
+	},
+	color: "#1a1360"
+}
+
+"#privateLabel":{
+	text: "Private",
+	font:{
+		fontSize: 14,
+		fontFamily: "Montserrat-Regular.ttf"
+	},
+	color: "#1a1360"
+}
+
+"#publicRadio":{
+	image: "/images/radio_checked.png",
+	left: 15
+}
+
+"#privateRadio":{
+	image: "/images/radio_unchecked.png",
+	left: 15
+}
+
+"#accessibilityContainer":{
+	width: "90%",
+	height: 50,
+	left: "5%",
+	top: 10
+}
+
+"#nameTextField":{
+  left: "5%",
+  width: "70%",
+  color: 'white',
+  font: {
+    fontWeight: 'bold',
+    fontFamily: "Montserrat-Regular.ttf"
+  },
+  borderColor: 'transparent'
+}
+
+
+"#datepicker":{
+	// value: "December 17, 2013",
+	top: 15,
+	type:Titanium.UI.PICKER_TYPE_TIME,
+	backgroundColor:'#000'
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

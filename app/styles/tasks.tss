@@ -1,0 +1,323 @@
+
+".container": {
+	width:Titanium.UI.FILL,
+	height:Titanium.UI.FILL,
+	backgroundColor: "#f8fcff"
+}
+
+
+"#userContainer":{
+	width:Titanium.UI.FILL,
+	height: "34%",
+	top: 0,
+	backgroundColor: "#1a1360"
+}
+
+"#info":{
+	width:Titanium.UI.FILL,
+	height: "50%",
+	top: 0
+}
+
+"#reminder":{
+	width: "90%",
+	height: "40%",
+	bottom: "10%",
+	left: "5%",
+	backgroundColor: "#615c91",
+	borderRadius: 5
+}
+
+"#leftCircle":{
+	width: 180,
+	height: 180,
+	borderRadius: 100,
+	backgroundColor: "#fff",
+	opacity: 0.3,
+	left: -100,
+	top: -100
+}
+
+"#rightCircel":{
+	width: 85,
+	height: 85,
+	borderRadius: 100,
+	backgroundColor: "#fff",
+	opacity: 0.3,
+	right: -20,
+	top: -20
+}
+
+"#title":{
+	text: "Hello Razia!",
+	font:{
+		fontSize: 16,
+		fontFamily: "Montserrat-Bold.ttf",
+		fontWeight: "bold"
+	},
+	color: "#fff",
+	width:Titanium.UI.FILL,
+	textAlign: "left"
+}
+
+"#todayDesc":{
+	text: "Today you have 4 tasks",
+	font:{
+		fontSize: 11,
+		fontFamily: "Montserrat-Regular.ttf"
+	},
+	color: "#fff",
+	width:Titanium.UI.FILL,
+	textAlign: "left"
+}
+
+"#photoContainer": {
+	backgroundColor: 'transparent',
+	right: 20,
+	width: Titanium.UI.SIZE,
+	height:Titanium.UI.SIZE
+}
+
+"#userInfo":{
+	width: "50%",
+	height:Titanium.UI.SIZE,
+	layout: "vertical",
+	left: 20,
+	backgroundColor: "transparent"
+}
+
+"#profilePhoto": {
+	top: 15,
+	backgroundColor: '#D9ffffff',
+	height: 60,
+	width: 60,
+	borderRadius: 30
+}
+
+"#defauleProfImg": {
+	font: {
+		fontFamily: 'material_icons.ttf',
+		fontSize: '70dp'
+	},
+	color: '#dbdbdb'
+}
+
+"#profileImg": {
+	height: Ti.UI.FILL,
+	width: Ti.UI.FILL,
+	zIndex: 1000
+}
+
+"#left":{
+	width:Titanium.UI.SIZE,
+	height:Titanium.UI.FILL,
+	layout: "vertical",
+	left: 10
+}
+
+".reminderLabel":{
+	font:{
+		fontFamily: "Montserrat-Regular.ttf"
+	},
+	color: "#fff",
+	width:Titanium.UI.FILL,
+	textAlign: "left"
+}
+
+"#reminderTitle":{
+	text: "Today Reminder",
+	font:{
+		fontSize: 16
+	},
+	top: 10
+}
+
+"#reminderContent":{
+	text: "Meeting with client",
+	font:{
+		fontSize: 11,
+		fontFamily: "Montserrat-Bold.ttf"
+	},
+	top: 5
+}
+
+"#reminderTime":{
+	text: "13:00 PM",
+	font:{
+		fontSize: 10
+	},
+	top: 3
+}
+
+"#right":{
+	width:Titanium.UI.SIZE,
+	height:Titanium.UI.FILL,
+	right: 0
+}
+
+"#reminderIcon":{
+	image: "/images/bell.png",
+	top: 15,
+	right: 20
+}
+
+"#closeIcon":{
+	image: "/images/close.png",
+	top: 5,
+	right: 5
+}
+
+"#scrollView":{
+	width:Titanium.UI.FILL,
+	height:Titanium.UI.FILL,
+	layout: "vertical",
+	backgroundColor: "#f8fcff",
+	top: 10
+}
+
+"#todayLabel":{
+	text: "Today",
+	font:{
+		fontFamily: "Montserrat-Bold.ttf",
+		fontSize: 14
+	},
+	color: "#615c91",
+	width:Titanium.UI.FILL,
+	textAlign: "left",
+	left: "5%",
+	top: 10
+}
+
+// "#taskContainer":{
+	// width:Titanium.UI.FILL,
+	// height:"66%",
+	// backgroundColor:"red",
+	// layout:"vertical"
+// }
+
+"#task":{
+	width: "90%",
+	height: 50,
+	backgroundColor: "#fff",
+	top:0,
+	zindex:1000,
+	bottom:10,
+}
+
+"#bottomShadow":{
+	width:"90%",
+	height:2,
+	backgroundColor:"#efefef",
+	top:50,
+	zIndex:0
+}
+
+"#leftShadow":{
+	width:1,
+	height:50,
+	backgroundColor:"#efefef",
+	left:"5%",
+	top:0
+}
+
+"#rightShadow":{
+	width:1,
+	height:50,
+	backgroundColor:"#efefef",
+	right:"5%",
+	top:0
+}
+
+"#taskView":{
+	width:"90%",
+	height:"66%",
+	backgroundColor:"transparent",
+	zIndex:10,
+	layout:"vertical"
+}
+
+"#taskContainer":{
+	width:Titanium.UI.FILL,
+	height: "55%",
+	top: "34%",
+	backgroundColor: "#f8fcff",
+	layout: "vertical"
+}
+
+"#taskLabel":{
+	text: "Tasks 1",
+	font:{
+		fontFamily: "Montserrat-Bold.ttf",
+		fontSize: 13
+	},
+	color: "#1a1360",
+	width: "50%",
+	height:Titanium.UI.FILL,
+	textAlign: "left",
+	left: 10
+}
+
+"#readMore":{
+	width:Titanium.UI.SIZE,
+	height:Titanium.UI.FILL,
+	right: 10,
+
+	layout: "horizontal"
+}
+
+"#readMoreLabel":{
+	text: "Read More",
+	font:{
+		fontFamily: "Montserrat-Regular.ttf",
+		fontSize: 11
+	},
+	height:Titanium.UI.FILL,
+	color: "#aaa"
+}
+
+"#readMoreIcon":{
+	text: "\uf054",
+	font:{
+		fontFamily: "fontIcon.ttf",
+		fontSize: 13
+	},
+	color: "#aaa",
+	left: 10,
+	height:Titanium.UI.FILL
+}
+
+"#progress":{
+	width: "30%",
+	height:Titanium.UI.SIZE,
+	left: "5%",
+	// bottom: -7,
+	// layout:"horizontal",
+	// backgroundColor: "blue",
+	zIndex:10000,
+	top:44
+}
+
+"#progressbar":{
+	width: "95%",
+	height: 3,
+	left: 0,
+	bottom: 5,
+	backgroundColor: "#03c564"
+}
+"#progressCircle":{
+	width: 12,
+	height: 12,
+	// backgroundColor:"#03c564",
+	backgroundColor: "#03c564",
+	// top:10,
+	borderRadius: 20,
+	right: 0,
+	zIndex:1000
+}
+
+
+
+
+
+
+

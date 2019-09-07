@@ -1,0 +1,68 @@
+<Alloy>
+	<View id="container">
+		<View id="topView">
+			<View id="userInfo">
+				<Label id="title"></Label>
+				<TextField id="nameTextField" class="textField" hintText="Title"></TextField>
+				<View id="happeningPhotoView" onClick="uploadPhoto">
+					<Label id="photoIcon"></Label>
+					<View id="showPhoto">
+						<ImageView id="photo" />
+					</View>
+				</View>
+			</View>
+			<View id="leftCircle"></View>
+			<View id="rightCircel"></View>
+			<View id="photoContainer">
+				<View id="profilePhoto">
+					<ImageView id="profileImg" />
+				</View>
+			</View>
+		</View>
+		<ScrollView id="scrollView">
+			<View id="happeningDesc">
+				<TextArea id="details"></TextArea>
+				<Label id="detailsLabel" class="desc">Description for happening</Label>
+			</View>
+			<View id="happeningInfo">
+				<View id="createdDate" class="fieldsContainer">
+					<ImageView id="dateIcon" />
+					<TextField id="dateTextField" class="textField"></TextField>
+					<Label id="dateLabel" class="labels">22 May 2019 07:00 PM onward</Label>
+					 <!-- <TextField id="txt" value="July 4, 2014" top="20"></TextField> -->
+        			<!-- <TextField id="dateTextField" width="50%" height="40" borderColor="red" borderWidth="1" left="0" color="#000"/> -->
+
+				</View>
+				<View id="locationView" class="fieldsContainer">
+					<ImageView id="locationIcon" />
+					<TextField id="locationTextField" class="textField"></TextField>
+					<Label id="locationLabel" class="labels">Melbourn, Australia</Label>
+				</View>
+				<View id="budgetView" class="fieldsContainer">
+					<ImageView id="budgetIcon" />
+					<TextField id="budgetTextField" class="textField"></TextField>
+					<Label id="budgetLabel" class="labels">Budget: 2005</Label>
+				</View>
+				<View id="bookingView" class="fieldsContainer">
+					<ImageView id="bookingIcon" />
+					<Label id="bookingLabel" class="labels">Booking/Reservation</Label>
+				</View>
+
+			</View>
+			<View id="accessibilityContainer">
+				<View id="publicContainer" onClick="publicClicked">
+					<Label id="publicLabel">Public</Label>
+					<ImageView id="publicRadio" />
+				</View>
+				<View id="privateContainer" onClick="privateClicked">
+					<Label id="privateLabel">Private</Label>
+					<ImageView id="privateRadio" />
+				</View>
+			</View>
+			<View id="saveView" onClick="saveHappening">
+				<Button id="saveBtn"></Button>
+			</View>
+
+		</ScrollView>
+	</View>
+</Alloy>
